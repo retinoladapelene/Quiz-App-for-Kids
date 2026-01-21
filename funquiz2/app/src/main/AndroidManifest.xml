@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logofunquiz"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/backgroundquiz2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Funquiz"
+        tools:targetApi="31">
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Funquiz.Fullscreen"/>
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Funquiz.Fullscreen" />
+        <activity
+            android:name=".Materiactivity"
+            android:exported="false"
+            android:theme="@style/Theme.Funquiz.Fullscreen" />
+        <activity
+            android:name=".StarterpageActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Funquiz.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".QuizActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Funquiz.Fullscreen" /> <!-- Perubahan di sini -->
+        <!-- Aktivitas lainnya -->
+        <activity
+            android:name=".Loginpage"
+            android:exported="false"
+            android:theme="@style/Theme.Funquiz.Fullscreen" />
+        <activity
+            android:name=".Homepage"
+            android:exported="false"
+            android:theme="@style/Theme.Funquiz.Fullscreen" />
+        <activity
+            android:name=".Finalscore"
+            android:exported="false"
+            android:theme="@style/Theme.Funquiz.Fullscreen" />
+    </application>
+
+</manifest>

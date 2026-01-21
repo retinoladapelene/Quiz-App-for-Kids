@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "177328989985",
+    "firebase_url": "https://funquiz-6c79c-default-rtdb.firebaseio.com",
+    "project_id": "funquiz-6c79c",
+    "storage_bucket": "funquiz-6c79c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177328989985:android:697caec553a9f5fd128060",
+        "android_client_info": {
+          "package_name": "com.example.funquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177328989985-hp9fi3mi5cs5915hul63gjetmgrv04bf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.funquiz",
+            "certificate_hash": "1de94f987c6ef597a43bebc05a1c06b63a8c059c"
+          }
+        },
+        {
+          "client_id": "177328989985-1pmsd6djjgfgbkjndaqijov7341a0a8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBDk1qpfPi5HPDrY-hMcY2hYTQe5mc3jI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "177328989985-1pmsd6djjgfgbkjndaqijov7341a0a8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

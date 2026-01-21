@@ -1,0 +1,29 @@
+<!-- app/src/main/res/values/themes.xml -->
+<resources>
+    <!-- Tema Aplikasi utama Anda -->
+    <style name="Theme.Funquiz" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- ... atribut tema lainnya ... -->
+    </style>
+
+    <!-- Tema baru untuk Fullscreen -->
+    <style name="Theme.Funquiz.Fullscreen" parent="Theme.Funquiz">
+        <!-- Menyembunyikan status bar -->
+        <item name="android:windowFullscreen">true</item>
+        <!-- Untuk Android 11 (API 30) ke atas, membantu konten menggambar di belakang notch/punch hole -->
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <!-- Opsional: Membuat navigation bar transparan.
+             Untuk menyembunyikan sepenuhnya secara interaktif, biasanya butuh kode di aktivitas. -->
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+    </style>
+
+    <style name="ThemeOverlay.Funquiz.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+    </style>
+
+</resources>

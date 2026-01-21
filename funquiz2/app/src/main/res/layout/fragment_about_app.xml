@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="7dp"
+    >
+
+
+        <!-- Konten About -->
+        <LinearLayout
+            android:id="@+id/about_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_blur2"
+            android:paddingTop="24dp">
+
+            <!-- Judul -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tentang Aplikasi"
+                android:textSize="20sp"
+                android:paddingLeft="10dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Foto Developer -->
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:src="@drawable/fotosaya" />
+
+            <!-- Identitas Developer -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="Prasetyo Bintang Sidiq Nawawi\n17230933\n17.4A.37\nTeknik Informatika 2023"
+                android:textAlignment="center" />
+
+            <!-- Tentang FunQuiz -->
+            <TextView
+                android:id="@+id/aboutTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_title"
+                android:textSize="20sp"
+                android:paddingLeft="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/aboutDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_description"
+                android:textSize="16sp"
+                android:paddingLeft="10dp"
+                android:fontFamily="sans-serif"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Visi -->
+            <TextView
+                android:id="@+id/aboutVisionTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_vision_title"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/aboutVisionContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_vision_content"
+                android:textSize="16sp"
+                android:paddingLeft="10dp"
+                android:fontFamily="sans-serif"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Fitur -->
+            <TextView
+                android:id="@+id/aboutFeaturesTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_features_title"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/aboutFeaturesContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_features_content"
+                android:textSize="16sp"
+                android:paddingLeft="10dp"
+                android:fontFamily="sans-serif"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Target Pengguna -->
+            <TextView
+                android:id="@+id/aboutTargetTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_target_title"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/aboutTargetContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_target_content"
+                android:textSize="16sp"
+                android:paddingLeft="10dp"
+                android:fontFamily="sans-serif"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="24dp" />
+        </LinearLayout>
+</ScrollView>

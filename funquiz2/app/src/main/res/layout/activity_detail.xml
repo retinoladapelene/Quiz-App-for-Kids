@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/backgroundquiz2"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="25dp"
+        android:orientation="vertical">
+
+
+
+        <!-- Tombol Read Aloud dan Quit -->
+        <!-- Tombol Read Aloud dan Quit -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginBottom="30dp">
+
+            <ImageView
+                android:id="@+id/quitButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/quittohpmepage"
+                android:contentDescription="Quit Button"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginEnd="8dp"/>
+
+            <ImageView
+                android:id="@+id/btn_read"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/readaloud"
+                android:contentDescription="Read Aloud"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginEnd="8dp"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!-- Konten Detail -->
+        <ImageView
+            android:id="@+id/detailImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="20dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/detailTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:padding="20dp"
+            android:fontFamily="@font/fredoka"
+            android:textColor="#000"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/detailDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:fontFamily="@font/chewy"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/detailTitlehistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:padding="20dp"
+            android:fontFamily="@font/fredoka"
+            android:textColor="#000"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/detailHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/chewy"
+            android:padding="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/TitleDetailExtra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:padding="20dp"
+            android:fontFamily="@font/fredoka"
+            android:textColor="#000" />
+        <TextView
+            android:id="@+id/detailExtra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:layout_marginBottom="100dp"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/chewy" />
+
+
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+
+
