@@ -47,12 +47,13 @@ public class Loginpage extends AppCompatActivity {
 
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
 
-        // Tombol Get Started
-        ImageView getStartedButton = findViewById(R.id.myImageView);
-        getStartedButton.setOnClickListener(v -> {
-            Intent signInIntent = mGoogleSignInClient.getSignInIntent();
-            startActivityForResult(signInIntent, RC_SIGN_IN);
+               getStartedButton.setOnClickListener(v -> {
+            Toast.makeText(this, "Login Berhasil (Demo Mode)", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(Loginpage.this, Homepage.class);
+            startActivity(intent);
+            finish();
         });
+
     }
 
     @Override
